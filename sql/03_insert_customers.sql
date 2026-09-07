@@ -1,3 +1,33 @@
-INSERT INTO retail_lab.customers (first_name, last_name, email, phone_number, zip_code, join_date, age, loyalty_status)
+INSERT INTO retail_lab.customers
+    (first_name, last_name, email, phone_number, zip_code, join_date, age, loyalty_status)
 VALUES
-    ('Maya', 'Carter', 'maya.carter@example.com', '4055550123', '73120', '2026-08-05', 34, 'gold');
+    ('Maya', 'Carter', 'maya.carter@example.com', '4055550123', '73120', '2026-08-15', 34, 'gold'),
+    ('Ethan', 'Brooks', 'ethan.brooks@example.com', '4055550142', '73112', '2025-11-03', 41, 'silver'),
+    ('Olivia', 'Reed', 'olivia.reed@example.com', '4055550188', '73013', '2026-01-22', 29, 'gold'),
+    ('Noah', 'Bennett', 'noah.bennett@example.com', '4055550191', '73118', '2024-07-09', 52, 'standard'),
+    ('Ava', 'Morgan', 'ava.morgan@example.com', '4055550204', '73034', '2025-02-18', 37, 'silver'),
+    ('Liam', 'Foster', 'liam.foster@example.com', '4055550215', '73109', '2026-03-11', 26, 'standard'),
+    ('Sophia', 'Hayes', 'sophia.hayes@example.com', '4055550239', '73135', '2024-10-28', 45, 'gold'),
+    ('Jackson', 'Price', 'jackson.price@example.com', '4055550250', '73099', '2025-06-14', 31, 'silver'),
+    ('Isabella', 'Ward', 'isabella.ward@example.com', '4055550267', '73159', '2026-07-01', 23, 'standard'),
+    ('Lucas', 'Coleman', 'lucas.coleman@example.com', '4055550284', '73064', '2023-12-17', 58, 'gold'),
+    ('Mia', 'Sullivan', 'mia.sullivan@example.com', '4055550299', '73127', '2025-09-05', 39, 'silver'),
+    ('Henry', 'Powell', 'henry.powell@example.com', '4055550311', '73142', '2024-04-23', 64, 'standard'),
+    ('Charlotte', 'Bryant', 'charlotte.bryant@example.com', '4055550328', '73072', '2026-02-09', 33, 'gold'),
+    ('James', 'Russell', 'james.russell@example.com', '4055550340', '73160', '2025-01-15', 47, 'silver'),
+    ('Amelia', 'Griffin', 'amelia.griffin@example.com', '4055550359', '73069', '2024-08-30', 28, 'standard'),
+    ('Benjamin', 'Diaz', 'benjamin.diaz@example.com', '4055550371', '73107', '2026-04-19', 36, 'gold'),
+    ('Harper', 'Kim', 'harper.kim@example.com', '4055550386', '73116', '2025-12-02', 42, 'silver'),
+    ('Elijah', 'Murphy', 'elijah.murphy@example.com', '4055550395', '73003', '2023-06-21', 55, 'gold'),
+    ('Evelyn', 'Peterson', 'evelyn.peterson@example.com', '4055550412', '73132', '2026-05-27', 30, 'standard'),
+    ('Daniel', 'Cox', 'daniel.cox@example.com', '4055550427', '73008', '2024-11-13', 49, 'silver'),
+    ('Camila', 'Richardson', 'camila.richardson@example.com', '4055550444', '73129', '2025-03-08', 35, 'gold'),
+    ('Matthew', 'Howard', 'matthew.howard@example.com', '4055550463', '73115', '2024-02-01', 61, 'standard'),
+    ('Luna', 'Torres', 'luna.torres@example.com', '4055550479', '73071', '2026-06-12', 27, 'silver'),
+    ('Sebastian', 'Flores', 'sebastian.flores@example.com', '4055550491', '73110', '2025-08-24', 44, 'gold'),
+    ('Gianna', 'Rivera', 'gianna.rivera@example.com', '4055550508', '73162', '2024-09-16', 32, 'standard'),
+    ('David', 'Cooper', 'david.cooper@example.com', '4055550520', '73049', '2023-11-04', 57, 'silver'),
+    ('Aria', 'Bell', 'aria.bell@example.com', '4055550537', '73122', '2026-01-30', 24, 'gold'),
+    ('Joseph', 'Bailey', 'joseph.bailey@example.com', '4055550551', '73020', '2025-04-07', 53, 'standard'),
+    ('Scarlett', 'Rogers', 'scarlett.rogers@example.com', '4055550566', '73139', '2024-12-19', 38, 'silver'),
+    ('Samuel', 'Turner', 'samuel.turner@example.com', '4055550583', '73084', '2026-03-29', 46, 'gold');
